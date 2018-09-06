@@ -28,7 +28,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#">Плеханова 45</a>
+            <a class="nav-link" href="#location">Плеханова 45</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">(351)776-05-66</a>
@@ -70,18 +70,77 @@
 
 
     <!-- Main Banner -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid text-center main-banner">
       <div class="container">
-        <h1 class="display-4">Караоке Team Бар</h1>
-        <p class="lead">Пой с нами. Пой в команде.</p>
+        <h1 class="display-2">Караоке Team Бар</h1>
+        <p class="lead moto">Пой с нами. Пой в команде.</p>
       </div>
     </div>
+<!-- ======================================================================= -->
+
+  <!-- Full Menu -->
+    <div class="container">
+      <h2>Меню без границ</h2>
+      <div class="accordion" id="accordionExample">
 
 
-<!-- ======================================================================== -->
+          <!-- <div class="card"> -->
+            <!-- <div class="card-header bg-dark" id="headingOne"> -->
+              <!-- <h5 class="mb-0 text-center"> -->
+                <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Салаты
+                </button>
+              <!-- </h5> -->
+            <!-- </div> -->
+
+            <!-- <div class="card"> -->
+              <!-- <div class="card-header  bg-dark" id="headingTwo"> -->
+                <!-- <h5 class="mb-0 text-center"> -->
+                  <button class="btn btn-outline-success collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Закуски
+                  </button>
+                <!-- </h5> -->
+              <!-- </div> -->
+
+              <!-- <div class="card"> -->
+                <!-- <div class="card-header bg-dark" id="headingThree"> -->
+                  <!-- <h5 class="mb-0 text-center"> -->
+                    <button class="btn btn-outline-success collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Бургеры
+                    </button>
+                  <!-- </h5> -->
+                <!-- </div> -->
+
+            <div id="collapseOne" class="collapse show bg-secondary" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          <!-- </div> -->
+
+            <div id="collapseTwo" class="collapse bg-secondary" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                lololllo
+              </div>
+            </div>
+          <!-- </div> -->
+
+            <div id="collapseThree" class="collapse bg-secondary" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciuntfjfjfjfjfjfjffj
+              </div>
+            </div>
+          <!-- </div> -->
+
+        </div>
+
+
+
+
+<!-- ======================================================================= -->
     <!-- What to Eat -->
     <div class="container">
-      <h2>Меню</h2>
+      <h2>Выбор наших гостей</h2>
       <div id="food-drink-menu" class="carousel slide" data-ride="carousel">
 
           <!-- Indicators -->
@@ -444,7 +503,7 @@
 
               <div class="col-md">
                 <div class="nested-container">
-                  <p>Image1</p>
+                  <img class="gallery-photo" src="resources/images/gallery-dancing.jpeg" alt="Фото из Караоке Team Бара">
                 </div>
               </div>
 
@@ -458,7 +517,7 @@
 
               <div class="col-md">
                 <div class="nested-container">
-                  <p>Image2</p>
+                  <img class="gallery-photo" src="resources/images/gallery-eating.jpeg" alt="Фото из Караоке Team Бара">
                 </div>
               </div>
 
@@ -472,7 +531,7 @@
 
                 <div class="col-md">
                   <div class="nested-container">
-                    <p>Image 3</p>
+                    <img class="gallery-photo" src="resources/images/gallery-sitting.jpeg" alt="Фото из Караоке Team Бара">
                   </div>
                 </div>
 
@@ -486,7 +545,7 @@
 
                   <div class="col-md">
                     <div class="nested-container">
-                      <p>Image 4</p>
+                      <img class="gallery-photo" src="resources/images/gallery-smoking.jpg" alt="Фото из Караоке Team Бара">
                     </div>
                   </div>
 
@@ -514,9 +573,14 @@
 
           <div class="row center-content contacts">
 
-            <div class="col-md">
+            <div id="location" class="col-md">
               <div class="nested-container">
-                <p>Место под карту проезда</p>
+                <div class="map-container">
+                  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8b41413095fb0d8e377522bd5a10b01073f3c0b6ef2781c338887b1db535f353&amp;width=512&amp;height=432&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+
+
+
               </div>
             </div>
 
@@ -545,6 +609,7 @@
     <script type="text/javascript" src="resources/js/bootstrap.bundle.min.js"></script>
     <!-- <script type="text/javascript" src="resources/slick/slick.min.js"></script> -->
     <script type="text/javascript" src="resources/js/main.js"></script>
+
 
   </body>
 </html>
