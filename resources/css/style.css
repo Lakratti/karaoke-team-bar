@@ -10,15 +10,16 @@ body {
   /* font-family: 'Cormorant Garamond', serif; */
 }
 
+.section-heading, footer {
+  padding-top: 3rem;
+}
+
+
 /*= = = FONTS = = = = = = = = = = = = */
 @font-face {
   font-family: 'Rum Raisin Cyrillic';
   font-weight: 400;
   src: url(../fonts/Rum Raisin Cyrillic.otf);
-}
-
-.rum-raisin {
-  font-family: "Rum Raisin Cyrillic";
 }
 
 @font-face {
@@ -27,17 +28,29 @@ body {
   src: url(../fonts/TypoGraphica/TypoGraphica_demo.otf);
 }
 
+.rum-raisin {
+  font-family: "Rum Raisin Cyrillic";
+}
+
 .typographica {
   font-family: 'TypoGraphica Demo';
 }
 
+.neucha {
+  font-family: 'Neucha', cursive;
+}
 
+.comfortaa {
+  font-family: 'Comfortaa', cursive;
+}
 
+.playfair-display {
+  font-family: 'Playfair Display', serif;
+}
 
-
-
-
-
+.cormorant-garamond {
+  font-family: 'Cormorant Garamond', serif;
+}
 
 
 /* Bootstrap Overrides */
@@ -48,7 +61,7 @@ body {
 
 
 
-
+/* Navigation */
 .navbar {
   margin-bottom: 20px;
 }
@@ -57,7 +70,6 @@ body {
 .main-banner {
   background-image: url("../images/microphones-crop.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  /* width: 100%; */
   height: 51.56vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,38 +77,37 @@ body {
   text-shadow: 3px 3px black;
 }
 
-
+.just-team {
+  letter-spacing: .75rem;
+  padding: 0 1rem;
+  font-family: 'Neucha', cursive;
+  font-weight: bold;
+  font-style: italic;
+}
 
 .moto {
-  text-shadow: 3px 3px black;
-  
+
 }
+
+#full-menu {
+
+}
+
 
 
 /* Sliders */
 .karaoke-slide {
   width: 100%;
-  /* min-height: 60vw; */
   padding: 2rem 5rem;
-
 }
 
 .center-content {
-  /* margin: auto 0; */
-  /* height: 60vw; */
-  /* background-color: lightblue; */
 
-}
-
-#full-menu {
-  padding: 0 1rem;
 }
 
 .food-drink-menu {
   height: 40vw;
 }
-
-
 
 .special-offers {
   height: 25vw;
@@ -111,12 +122,28 @@ body {
   padding: 2rem 0;
 }
 
-.contacts {
+
+/* Description */
+#description {
+  padding: 0 5rem;
+}
+
+
+
+/* Contacts */
+#contacts {
   min-height: 400px;
+  padding: 0 2rem;
+}
+
+#location {
+  padding: 0;
+  margin: 0;
 }
 
 .map-container {
-  height: 432px;
+  min-height: 432px;
+  padding: 15px 0;
 }
 
 .nested-container {
@@ -124,21 +151,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  /* background-color: lightgreen; */
 }
 
 .nested-container p {
   background-color: lightblue;
 }
 
-.static-container {
-  min-height: 200px;
-  /* background-color: coral; */
-  margin: 2rem 5rem;
-  padding: 2rem 5rem;
-  width: auto;
-}
 
+/* Footer */
 footer p {
   text-align: center;
 }
