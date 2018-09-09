@@ -4,7 +4,41 @@ body {
   padding-bottom: 20px;
   background-color: dimgray;
   color: white;
+  /* font-family: 'Neucha', cursive; */
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Cormorant Garamond', serif; */
 }
+
+/*= = = FONTS = = = = = = = = = = = = */
+@font-face {
+  font-family: 'Rum Raisin Cyrillic';
+  font-weight: 400;
+  src: url(../fonts/Rum Raisin Cyrillic.otf);
+}
+
+.rum-raisin {
+  font-family: "Rum Raisin Cyrillic";
+}
+
+@font-face {
+  font-family: 'TypoGraphica Demo';
+  font-weight: 400;
+  src: url(../fonts/TypoGraphica/TypoGraphica_demo.otf);
+}
+
+.typographica {
+  font-family: 'TypoGraphica Demo';
+}
+
+
+
+
+
+
+
+
+
 
 /* Bootstrap Overrides */
 .btn-secondary:focus, .btn-secondary.focus {
@@ -31,8 +65,11 @@ body {
   text-shadow: 3px 3px black;
 }
 
+
+
 .moto {
-  /* text-shadow: 3px 3px black; */
+  text-shadow: 3px 3px black;
+  
 }
 
 
