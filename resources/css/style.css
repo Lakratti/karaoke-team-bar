@@ -2,7 +2,8 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: dimgray;
+  /* background-color: dimgray; */
+  background-color: rgba(25, 25, 25, 1);
   color: white;
   /* font-family: 'Neucha', cursive; */
   font-family: 'Comfortaa', cursive;
@@ -52,15 +53,123 @@ body {
   font-family: 'Cormorant Garamond', serif;
 }
 
-
+/* ======================================================================== */
 /* Bootstrap Overrides */
+.container {
+  /* width: 100%; */
+  padding-right: 0px;
+  padding-left: 0px;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+
+/* Navbar-dark */
+
+.navbar-dark .navbar-brand {
+  /* color: #fff; */
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  /* color: #fff; */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /* color: rgba(255, 255, 255, 0.5); */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  /* color: rgba(255, 255, 255, 0.75); */
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+  /* color: rgba(255, 255, 255, 0.25); */
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  /* color: #fff; */
+}
+
+.navbar-dark .navbar-toggler {
+  /* color: rgba(255, 255, 255, 0.5); */
+  /* border-color: rgba(255, 255, 255, 0.1); */
+}
+
+.navbar-dark .navbar-toggler-icon {
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); */
+}
+
+.navbar-dark .navbar-text {
+  /* color: rgba(255, 255, 255, 0.5); */
+}
+
+.navbar-dark .navbar-text a {
+  /* color: #fff; */
+}
+
+.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+  /* color: rgba(17, 21, 28, 1); */
+}
+
+
+
+.bg-secondary {
+  background-color: rgba(206, 208, 206, 0.07) !important;
+  /* background-color: rgba(206, 208, 206, 1) !important; */
+}
+
+a.bg-secondary:hover, a.bg-secondary:focus,
+button.bg-secondary:hover,
+button.bg-secondary:focus {
+  /* background-color: #545b62 !important; */
+}
+
+
+.btn-secondary {
+  /* color: #fff; */
+  background-color: rgba(25, 25, 25, 1);
+  /* border-color: #6c757d; */
+}
+
+.btn-secondary:hover {
+  /* color: rgba(241, 80, 37, 1); */
+  background-color: rgba(241, 80, 37, 1);
+  /* border-color: #545b62; */
+
+}
+
 .btn-secondary:focus, .btn-secondary.focus {
-  background-color: grey;
+  box-shadow: 0 0 0 0.1rem rgba(241, 80, 37, 1);
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  /* color: #fff; */
+  /* background-color: #6c757d; */
+  /* border-color: #6c757d; */
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  /* color: #fff; */
+  /* background-color: #545b62; */
+  /* border-color: #4e555b; */
+  box-shadow: 0 0 0 0.1rem rgba(241, 80, 37, 1);
+
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  /* box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); */
 }
 
 
 
 
+
+/* ======================================================================== */
 /* Navigation */
 .navbar {
   margin-bottom: 20px;
@@ -93,13 +202,28 @@ body {
 
 }
 
+.collapse {
+  margin-top: .15rem;
 
+}
+
+
+
+}
 
 /* Sliders */
 .karaoke-slide {
   width: 100%;
   padding: 2rem 5rem;
+
 }
+
+.slide, .contacts {
+  border-radius: 2px;
+  box-shadow: 0 0 0 0.1rem rgba(108, 117, 125, 0.5);
+  color: black;
+}
+
 
 .center-content {
 
@@ -133,7 +257,7 @@ body {
 /* Contacts */
 #contacts {
   min-height: 400px;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 #location {
