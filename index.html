@@ -33,27 +33,27 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#location">Плеханова 45</a>
+            <a class="nav-link karaoke-nav" href="#location">Плеханова 45</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">(351)776-05-66</a>
+            <a class="nav-link karaoke-nav" href="#">(351)776-05-66</a>
           </li>
         </ul>
         <ul class="navbar-nav mr-right">
           <li class="nav-item">
-            <a class="nav-link" href="#food-drink-menu">Меню</a>
+            <a class="nav-link karaoke-nav" href="#food-drink-menu">Меню</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#events">Афиша</a>
+            <a class="nav-link karaoke-nav" href="#events">Афиша</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#description">О нас</a>
+            <a class="nav-link karaoke-nav" href="#description">О нас</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#photo-gallery">Галерея</a>
+            <a class="nav-link karaoke-nav" href="#photo-gallery">Галерея</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacts">Контакты</a>
+            <a class="nav-link karaoke-nav" href="#contacts">Контакты</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a> -->
@@ -106,15 +106,23 @@
           </button>
 
           <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Паста
+            Ассорти
+          </button>
+
+          <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            Блюда из мяса и рыбы
+          </button>
+
+          <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            Десерты
           </button>
 
           <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            Коктейли
+            Коктейли (старое)
           </button>
 
           <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            Алкоголь
+            Алкоголь (старое)
           </button>
 
 
@@ -122,19 +130,19 @@
           <div id="collapseOne" class="collapse bg-secondary show" aria-labelledby="headingOne" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
-                  <p class="text-center " style="margin-top:1rem;">Image</p>
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                    <img src="resources\images\m-carbonara.jpg" class="img-fluid" alt="Responsive image">
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
+                    <!-- <thead class="font-weight-bold">
                       <tr>
-                        <th></th>
+                        <th></th> -->
                         <!-- <th>Вес</th> -->
-                        <th>Цена</th>
+                        <!-- <th>Цена</th>
                       </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                       <tr>
                         <td class="font-italic font-weight-bold">Фетучини с курицей</td>
@@ -173,43 +181,44 @@
           <div id="collapseTwo" class="collapse bg-secondary" aria-labelledby="headingTwo" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
-                  <p class="text-center " style="margin-top:1rem;">Image</p>
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                  <!-- <p class="text-center" style="margin-top:1rem;">Image</p> -->
+                  <img src="resources\images\m-burger.jpg" class="img-fluid" alt="Responsive image">
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
+                    <!-- <thead class="font-weight-bold">
                       <tr>
                         <th></th>
-                        <!-- <th>Вес</th> -->
+                        <th>Состав</th>
                         <th>Цена</th>
                       </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                       <tr>
-                        <td class="font-italic font-weight-bold">Сендвич с ветчиной и сыром</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Сендвич с ветчиной и сыром</td>
+                        <td></td>
                         <td>130</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Сендвич с бужениной (Harry`s,ветчина,сыр,салат,овощи)</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Сендвич с бужениной</td>
+                        <td>Harry`s, ветчина, сыр, салат, овощи</td>
                         <td>130</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Сендвич с курицей (Harrry`s,куриное филе,салат,овощи)</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Сендвич с курицей</td>
+                        <td>Harrry`s, куриное филе, салат,овощи</td>
                         <td>280</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Бургер классик чиз (булочка,котлета из говядины,сыр Чеддер,овощи,подается с соусом и картофелем фри)</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Бургер классик чиз</td>
+                        <td>булочка, котлета из говядины, сыр Чеддер, овощи, подается с соусом и картофелем фри</td>
                         <td>280</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Чикенбургер (булочка с кунжутом,куриная котлета,сыр Чеддер,овощи,подается с соусом и картофелем фри)</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Чикенбургер</td>
+                        <td>булочка с кунжутом, куриная котлета, сыр Чеддер, овощи, подается с соусом и картофелем фри</td>
                         <td>250</td>
                       </tr>
                     </tbody>
@@ -224,20 +233,26 @@
           <div id="collapseThree" class="collapse bg-secondary" aria-labelledby="headingThree" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
-                  <p class="text-center " style="margin-top:1rem;">Image</p>
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                  <!-- <p class="text-center" style="margin-top:1rem;">Image</p> -->
+                  <img src="resources\images\m-salad.jpg" class="img-fluid" alt="Responsive image">
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
-                      <tr>
-                        <th></th>
+                    <!-- <thead class="font-weight-bold"> -->
+                      <!-- <tr> -->
+                        <!-- <th></th> -->
                         <!-- <th>Вес</th> -->
-                        <th>Цена</th>
-                      </tr>
-                    </thead>
+                        <!-- <th>Цена</th> -->
+                      <!-- </tr> -->
+                    <!-- </thead> -->
                     <tbody>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Салаты</td>
+                        <!-- <td>-</td> -->
+                        <td></td>
+                      </tr>
                       <tr>
                         <td class="font-italic font-weight-bold">Цезарь с курицей</td>
                         <!-- <td>-</td> -->
@@ -258,7 +273,11 @@
                         <!-- <td>-</td> -->
                         <td>230</td>
                       </tr>
-
+                      <tr>
+                        <td class="font-italic font-weight-bold">Гарниры</td>
+                        <!-- <td>-</td> -->
+                        <td></td>
+                      </tr>
                       <tr>
                         <td class="font-italic font-weight-bold">Картофель фри</td>
                         <!-- <td>-</td> -->
@@ -291,48 +310,49 @@
           <div id="collapseFour" class="collapse bg-secondary" aria-labelledby="headingFour" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
-                  <p class="text-center " style="margin-top:1rem;">Image</p>
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                  <!-- <p class="text-center" style="margin-top:1rem;">Image</p> -->
+                  <img src="resources\images\m-bar-snaks.jpg" class="img-fluid" alt="Responsive image">
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
+                    <!-- <thead class="font-weight-bold">
                       <tr>
                         <th></th>
-                        <!-- <th>Вес</th> -->
+                        <th></th>
                         <th>Цена</th>
                       </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                       <tr>
-                        <td class="font-italic font-weight-bold">Пивной набор 1 (кольца кальмара, сырные шарики, луковые кольца, картофель фри, картофель по- деревенски , картофельные шарики, соус на выбор)</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Пивной набор 1</td>
+                        <td class="font-weight-light">кольца кальмара, сырные шарики, луковые кольца, картофель фри, картофель по-деревенски, картофельные шарики, соус на выбор</td>
                         <td>440</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Пивной набор 2 (крылышки BBQ, колбаски, сырные шарики,гренки с сыром,кольца кальмара,соус на выбор)</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Пивной набор 2</td>
+                        <td class="font-weight-light">крылышки BBQ, колбаски, сырные шарики, гренки с сыром, кольца кальмара, соус на выбор</td>
                         <td>590</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Кольца кальмара</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Кольца кальмара</td>
+                        <td></td>
                         <td>240</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Сырные шарики</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Сырные шарики</td>
+                        <td></td>
                         <td>230</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Чесночные гренки</td>
-                        <!-- <td>-</td> -->
+                        <td class="font-italic font-weight-bold text-nowrap">Чесночные гренки</td>
+                        <td></td>
                         <td>130</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Крылышки BBQ</td>
-                        <td>-</td>
+                        <td class="font-italic font-weight-bold text-nowrap">Крылышки BBQ</td>
+                        <td></td>
                         <td>180</td>
                       </tr>
                     </tbody>
@@ -343,44 +363,60 @@
             </div> <!-- card-body -->
           </div> <!-- collapse -->
 
-          <!-- Collapse 5 -->
+          <!-- Collapse 5 Ассорти-->
           <div id="collapseFive" class="collapse bg-secondary" aria-labelledby="headingFive" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
-                  <p class="text-center " style="margin-top:1rem;">Image</p>
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                  <!-- <p class="text-center" style="margin-top:1rem;">Image</p> -->
+                  <img src="resources\images\m-assorti.jpg" class="img-fluid" alt="Responsive image">
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
+                    <!-- <thead class="font-weight-bold">
                       <tr>
                         <th></th>
-                        <!-- <th>Вес</th> -->
+                        <th>Состав</th>
                         <th>Цена</th>
                       </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                       <tr>
-                        <td class="font-italic font-weight-bold">Карбонара</td>
-                        <!-- <td>-</td> -->
-                        <td>--</td>
+                        <td class="font-italic font-weight-bold">Мясное плато</td>
+                        <td>салями, ветчина, буженина, говяжий язык, оливки, зелень</td>
+                        <td>430</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">Еще паста</td>
-                        <!-- <td>-</td> -->
-                        <td>-</td>
+                        <td class="font-italic font-weight-bold">Рыбное плато</td>
+                        <td>лосось с/с, балык, горбуша х/к, сельдь атлантическая, маслины, зелень</td>
+                        <td>500</td>
                       </tr>
                       <tr>
-                        <td class="font-italic font-weight-bold">И еще одна паста</td>
-                        <!-- <td>-</td> -->
-                        <td>-</td>
+                        <td class="font-italic font-weight-bold">Овощное плато</td>
+                        <td>свежие помидоры, огурцы, перец болгарский, лист салата с оливковым маслом</td>
+                        <td>240</td>
                       </tr>
-                      <!-- <tr>
-                        <td class="font-italic font-weight-bold">Крылышки BBQ</td>
-                        <td>-</td>
-                        <td>-</td>
-                      </tr> -->
+                      <tr>
+                        <td class="font-italic font-weight-bold">Фруктовое плато</td>
+                        <td>яблоко, груша, апельсин, банан, виноград</td>
+                        <td>250</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Ассорти под водку</td>
+                        <td>сельдь с/с, лук маринованный, опята, огурцы, отварной картофель, гренки чесночные, горчица</td>
+                        <td>430</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Сырное плато</td>
+                        <td>Маасдам, Дорблю, Фета, Пармезан, мёд, грецкий орех, виноград</td>
+                        <td>540</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Хлебная корзина</td>
+                        <td>белый хлеб, черный хлеб</td>
+                        <td>50</td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -389,23 +425,137 @@
             </div> <!-- card-body -->
           </div> <!-- collapse -->
 
+          <!-- Collapse 8 Мясо и рыба-->
+          <div id="collapseEight" class="collapse bg-secondary" aria-labelledby="headingEight" data-parent="#full-menu">
+            <div class="card-body">
+              <div class="row" style="font-size:0.75rem;">
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                  <!-- <p class="text-center" style="margin-top:1rem;">Image</p> -->
+                  <img src="resources\images\m-kebab.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="col-md">
+                  <table class="table table-borderless">
+                    <!-- <thead class="font-weight-bold">
+                      <tr>
+                        <th></th> -->
+                        <!-- <th>Вес</th> -->
+                        <!-- <th>Цена</th>
+                      </tr>
+                    </thead> -->
+                    <tbody>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Корейка на кости, гарнир на выбор: картофель по-деревенски или овощи гриль</td>
+                        <!-- <td>-</td> -->
+                        <td>350</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Люля–кебаб из курицы</td>
+                        <!-- <td>-</td> -->
+                        <td>250</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Колбаски фирменные с картофелем фри</td>
+                        <!-- <td>-</td> -->
+                        <td>250</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Блюдо от шефа "Курица в сливочном винограде""</td>
+                        <!-- <td>-</td> -->
+                        <td>300</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Стейк из лосося</td>
+                        <!-- <td>-</td> -->
+                        <td>490</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Соусы: чесночный, тар-тар, Цезарь, сырный, BBQ</td>
+                        <!-- <td>-</td> -->
+                        <td>50</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div> <!-- row -->
+            </div> <!-- card-body -->
+          </div> <!-- collapseEight -->
+
+          <!-- Collapse 9 Десерты-->
+          <div id="collapseNine" class="collapse bg-secondary" aria-labelledby="headingNine" data-parent="#full-menu">
+            <div class="card-body">
+              <div class="row" style="font-size:0.75rem;">
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center">
+                  <!-- <p class="text-center" style="margin-top:1rem;">Image</p> -->
+                  <img src="resources\images\m-dessert.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="col-md">
+                  <table class="table table-borderless">
+                    <!-- <thead class="font-weight-bold">
+                      <tr>
+                        <th></th> -->
+                        <!-- <th>Вес</th> -->
+                        <!-- <th>Цена</th>
+                      </tr>
+                    </thead> -->
+                    <tbody>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Мороженное пломбир с добавками:</td>
+                        <!-- <td>-</td> -->
+                        <td>150</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">сироп</td>
+                        <!-- <td>-</td> -->
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">шоколад тертый</td>
+                        <!-- <td>-</td> -->
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">грецкий орех</td>
+                        <!-- <td>-</td> -->
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">Чизкейк</td>
+                        <!-- <td>-</td> -->
+                        <td>200</td>
+                      </tr>
+                      <tr>
+                        <td class="font-italic font-weight-bold">добавки: топинг, орехи</td>
+                        <!-- <td>-</td> -->
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div> <!-- row -->
+            </div> <!-- card-body -->
+          </div> <!-- collapseNine -->
+
           <!-- Collapse 6 -->
           <div id="collapseSix" class="collapse bg-secondary" aria-labelledby="headingSix" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
+                <div class="col-md-6">
                   <p class="text-center " style="margin-top:1rem;">Image</p>
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
+                    <!-- <thead class="font-weight-bold">
                       <tr>
                         <th></th>
-                        <!-- <th>Вес</th> -->
+                        <th>Вес</th>
                         <th>Цена</th>
                       </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                       <tr>
                         <td class="font-italic font-weight-bold">Негрони</td>
@@ -464,19 +614,19 @@
           <div id="collapseSeven" class="collapse bg-secondary" aria-labelledby="headingSeven" data-parent="#full-menu">
             <div class="card-body">
               <div class="row" style="font-size:0.75rem;">
-                <div class="col-md-3">
+                <div class="col-md-6">
                   <p class="text-center " style="margin-top:1rem;">Image</p>
                 </div>
 
                 <div class="col-md">
                   <table class="table table-borderless">
-                    <thead class="font-weight-bold">
+                    <!-- <thead class="font-weight-bold">
                       <tr>
                         <th></th>
-                        <!-- <th>Вес</th> -->
+                        <th>Вес</th>
                         <th>Цена</th>
                       </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                       <tr>
                         <td class="font-italic font-weight-bold">Мартини</td>

@@ -64,6 +64,13 @@ body {
 }
 
 
+
+@media only screen and (max-width: 650px) {
+    .display-2 {
+        font-size: 2.5rem;
+    }
+}
+
 /* Navbar-dark */
 
 .navbar-dark .navbar-brand {
@@ -175,6 +182,12 @@ button.bg-secondary:focus {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 960px) and (min-width: 768px) {
+    .karaoke-nav {
+        font-size: .75rem;
+    }
+}
+
 /* Main Banner */
 .main-banner {
   background-image: url("../images/microphones-crop.jpg"); /* The image used */
@@ -207,6 +220,10 @@ button.bg-secondary:focus {
 
 }
 
+.menu-image {
+  max-height: 10rem;
+  width: auto;
+}
 
 
 }
@@ -241,9 +258,10 @@ button.bg-secondary:focus {
   height: 40vw;
 }
 
-.photo-gallery {
+.gallery-photo {
+  width: 100%;
   height: auto;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
 }
 
 
@@ -275,6 +293,7 @@ button.bg-secondary:focus {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .nested-container p {
