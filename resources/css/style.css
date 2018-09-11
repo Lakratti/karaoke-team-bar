@@ -184,7 +184,7 @@ button.bg-secondary:focus {
 
 @media only screen and (max-width: 960px) and (min-width: 768px) {
     .karaoke-nav {
-        font-size: .75rem;
+        font-size: .65rem;
     }
 }
 
