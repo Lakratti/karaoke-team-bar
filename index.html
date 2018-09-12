@@ -700,7 +700,7 @@
 
 <!-- ======================================================================= -->
     <!-- What to Eat -->
-    <div class="container">
+    <div class="container d-none">
       <h2 class="text-center section-heading">Выбор наших гостей</h2>
       <div id="food-drink-menu" class="carousel slide" data-ride="carousel">
 
@@ -812,7 +812,7 @@
 
 <!-- Offers Section -->
 <div class="container">
-  <h2 class="text-center section-heading">Акции</h2>
+  <h2 class="text-center section-heading">Акции на каждый день<button type="button" class="btn btn-link" data-toggle="popover" title="Каждый день действует только одна акция" data-content="Уточните в баре какая действует сегодня">подробнее</button></h2>
   <div id="special-offers" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -821,6 +821,7 @@
         <li data-target="#special-offers" data-slide-to="1"></li>
         <li data-target="#special-offers" data-slide-to="2"></li>
         <li data-target="#special-offers" data-slide-to="3"></li>
+        <li data-target="#special-offers" data-slide-to="4"></li>
       </ul>
 
       <!-- The slideshow -->
@@ -828,19 +829,24 @@
 
         <div class="carousel-item active">
           <div class="container bg-secondary karaoke-slide">
-            <div class="row center-content special-offers">
+            <div class="row justify-content-center special-offers">
 
-              <div class="col-md-4">
+              <div class="col-md-1"></div>
+
+              <div class="col-md-5">
                 <div class="nested-container">
-                  <p>Image 1</p>
+                  <img class="img-offer" src="resources/images/o-1plus1is3.jpg">
                 </div>
               </div>
 
-              <div class="col-md">
+              <div class="col-md-5">
                 <div class="nested-container">
-                  <p>Content 1</p>
+                  <h4 class="offer-title text-center">MIX DRINK<br>1 + 1 = 3 </h4>
+                  <p class="text-center">Приятная арифметика: за 2 кружки пива получи еще одну в подарок!</p>
                 </div>
               </div>
+
+              <div class="col-md-1"></div>
 
             </div>
           </div>
@@ -848,63 +854,104 @@
 
         <div class="carousel-item">
           <div class="container bg-secondary karaoke-slide">
-            <div class="row center-content special-offers">
+            <div class="row justify-content-center special-offers">
 
-              <div class="col-md-4">
+              <div class="col-md-1"></div>
+
+              <div class="col-md-5">
                 <div class="nested-container">
-                  <p>Image 2</p>
+                  <img class="img-offer" src="resources/images/o-foam-without-limits.jpg">
                 </div>
               </div>
 
-              <div class="col-md">
+              <div class="col-md-5">
                 <div class="nested-container">
-                  <p>Content 2</p>
+                  <h4 class="offer-title text-center">ПЕННЫЙ БЕЗЛИМИТ<br>599р. </h4>
+                  <p class="text-center">Никто не устоит</p>
                 </div>
               </div>
+
+              <div class="col-md-1"></div>
 
             </div>
           </div>
         </div>
 
         <div class="carousel-item">
-            <div class="container bg-secondary karaoke-slide">
-              <div class="row center-content special-offers">
+          <div class="container bg-secondary karaoke-slide">
+            <div class="row justify-content-center special-offers">
 
-                <div class="col-md-4">
-                  <div class="nested-container">
-                    <p>Image 3</p>
-                  </div>
+              <div class="col-md-1"></div>
+
+              <div class="col-md-5">
+                <div class="nested-container">
+                  <img class="img-offer" src="resources/images/o-cocktail-as-a-gift.jpg">
                 </div>
-
-                <div class="col-md">
-                  <div class="nested-container">
-                    <p>Content 3</p>
-                  </div>
-                </div>
-
               </div>
+
+              <div class="col-md-5">
+                <div class="nested-container">
+                  <h4 class="offer-title text-center">КОКТЕЙЛЬ + 1<br>Как без пары?</h4>
+                  <p class="text-center">Закажи себе один из наших улетных коктейлей и получи второй в подарок!</p>
+                </div>
+              </div>
+
+              <div class="col-md-1"></div>
+
             </div>
           </div>
+        </div>
 
         <div class="carousel-item">
-              <div class="container bg-secondary karaoke-slide">
-                <div class="row center-content special-offers">
+          <div class="container bg-secondary karaoke-slide">
+            <div class="row justify-content-center special-offers">
 
-                  <div class="col-md-4">
-                    <div class="nested-container">
-                      <p>Image 4</p>
-                    </div>
-                  </div>
+              <div class="col-md-1"></div>
 
-                  <div class="col-md">
-                    <div class="nested-container">
-                      <p>Content 4</p>
-                    </div>
-                  </div>
-
+              <div class="col-md-5">
+                <div class="nested-container">
+                  <img class="img-offer" src="resources/images/o-20off.jpg">
                 </div>
               </div>
+
+              <div class="col-md-5">
+                <div class="nested-container">
+                  <h4 class="offer-title text-center">СКИДКА НА МЕНЮ 20%<br></h4>
+                  <p class="text-center">Оцени нашу кухню!</p>
+                </div>
+              </div>
+
+              <div class="col-md-1"></div>
+
             </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container bg-secondary karaoke-slide">
+            <div class="row justify-content-center special-offers">
+
+              <div class="col-md-1"></div>
+
+              <div class="col-md-5">
+                <div class="nested-container">
+                  <img class="img-offer" src="resources/images/o-40off.jpg">
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div class="nested-container">
+                  <h4 class="offer-title text-center">СКИДКА 40%<br></h4>
+                  <p class="text-center">Staff party с 4:00</p>
+                </div>
+              </div>
+
+              <div class="col-md-1"></div>
+
+            </div>
+          </div>
+        </div>
+
 
       </div>
 
