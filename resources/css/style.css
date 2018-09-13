@@ -360,6 +360,40 @@ button.bg-secondary:focus {
   text-align: center;
 }
 
+.events-nested-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.event-description {
+  background-color: rgba(25,25,25,0.7);
+  /* opacity: .5; */
+  /* padding: 2rem; */
+  width: 80%;
+}
+
+.event1 {
+  background-image: url("../images/event-drums.jpg");
+}
+
+.event2 {
+  background-image: url("../images/event-songs.jpg");
+}
+
+
 .nested-container p {
   /* background-color: lightblue; */
   color: white;
