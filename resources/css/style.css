@@ -248,6 +248,13 @@ button.bg-secondary:focus {
   font-style: italic;
 }
 
+.j-team {
+  letter-spacing: .5rem;
+  font-family: 'Neucha', cursive;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .moto {
 
 }
