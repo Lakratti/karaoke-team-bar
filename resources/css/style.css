@@ -307,57 +307,26 @@ button.bg-secondary:focus {
   padding-bottom: 2rem;
 }
 
-.fa-question-circle {
-  color: black;
-}
+
 
 .img-offer {
   height: 65%;
   width: auto;
 }
 
+/* ==== */
+/* Popover */
+.popover {
+font-family: 'Comfortaa', cursive;
+}
+
+
+
+/* ======================================================================= */
+/* Events */
+
 .events {
   height: 40vw;
-}
-
-.gallery-photo {
-  width: 100%;
-  height: auto;
-  /* padding: 2rem 0; */
-}
-
-
-/* Description */
-#description {
-  padding: 0 5rem;
-}
-
-
-
-/* Contacts */
-#contacts {
-  min-height: 400px;
-  padding: 0 1rem;
-}
-
-#location {
-  padding: 0;
-  margin: 0;
-}
-
-.map-container {
-  min-height: 432px;
-  padding: 15px 0;
-}
-
-.nested-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  text-align: center;
 }
 
 .events-nested-container {
@@ -390,8 +359,154 @@ div.event-description {
 }
 
 .event2 {
+  background-image: url("../images/event-light.jpg");
+}
+
+.event3 {
   background-image: url("../images/event-songs.jpg");
 }
+
+.list-opening {
+  line-height: 1.9;
+}
+
+.list-opening li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.list-opening a:link {
+  color: rgba(241, 80, 37, 1);
+}
+
+@media only screen and (max-width: 1100px) {
+  .list-opening {
+    line-height: 1.7;
+  }
+
+    .list-opening li {
+        font-size: 1rem;
+    }
+    .event-description h1 {
+      font-size: 2.5rem;
+    }
+
+    .event-description h2 {
+      font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+  .list-opening {
+    line-height: 1.6;
+  }
+
+    .list-opening li {
+        font-size: 1rem;
+    }
+    .event-description h1 {
+      font-size: 1.8rem;
+    }
+
+    .event-description h2 {
+      font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+  .list-opening {
+    line-height: 1.2;
+  }
+
+    .list-opening li {
+        font-size: 1rem;
+    }
+    .event-description h1 {
+      font-size: 1.8rem;
+    }
+
+    .event-description h2 {
+      font-size: 1.3rem;
+    }
+
+    .event-description p {
+      display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .list-opening {
+    line-height: 1.1;
+  }
+
+    .list-opening li {
+        font-size: .7rem;
+    }
+    .event-description h1 {
+      font-size: 1.5rem;
+    }
+
+    .event-description h2 {
+      font-size: 1rem;
+    }
+
+    .event-description p {
+      display: none;
+    }
+}
+
+/* ============================================================================ */
+
+
+.gallery-photo {
+  width: 100%;
+  height: auto;
+  /* padding: 2rem 0; */
+}
+
+
+/* Description */
+#description {
+  padding: 0 5rem;
+}
+
+
+
+/* Contacts */
+#contacts {
+  min-height: 400px;
+  padding: 0 1rem;
+}
+
+#location {
+  padding: 0;
+  margin: 0;
+}
+
+.map-container {
+  min-height: 432px;
+  padding: 15px 0;
+}
+
+.about-bar {
+  color: white;
+}
+
+.about-bar h3 {
+  margin-top: 2rem;
+}
+
+.nested-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
 
 
 .nested-container p {
