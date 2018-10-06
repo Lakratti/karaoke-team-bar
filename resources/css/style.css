@@ -381,6 +381,13 @@ div.event-description {
   background-image: url("../images/event-songs.jpg");
 }
 
+.event4 {
+  background-image: url("../images/events/2018-10-27 Halloween extended.jpg");
+  background-size: contain;
+  background-color: black;
+
+}
+
 .list-opening {
   line-height: 1.9;
 }
