@@ -195,10 +195,10 @@ button.bg-secondary:focus {
   padding: 2rem 5rem;
 }
 
-.slide, .contacts {
+.slide, .contacts, .staff {
   border-radius: 2px;
   box-shadow: 0 0 0 0.1rem rgba(108, 117, 125, 0.5);
-  color: black;
+  /* color: black; */
 }
 
 .food-drink-menu {
@@ -405,6 +405,31 @@ table tbody tr td:first-child {
 #description {
   padding: 0 5rem;
 }
+
+
+
+/* = = = Staff = = = */
+#staff {
+  padding: 0 1rem;
+}
+
+.staff {
+  padding-top: 2rem;
+}
+
+.staff div {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.staff div img {
+  width: 100%;
+}
+
+.staff div p {
+  text-align: center;
+  padding: .5rem;
+}
+
 
 
 
