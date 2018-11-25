@@ -15,6 +15,10 @@ body {
 @media only screen and (max-width: 650px) {
   .section-heading {
     font-size: 1.5rem !important;
+    padding-top: 1.8rem;
+  }
+  .jumbotron {
+    margin-bottom: 0;
   }
 }
 
@@ -195,6 +199,13 @@ button.bg-secondary:focus {
   padding: 2rem 5rem;
 }
 
+@media only screen and (max-width: 760px) {
+  .karaoke-slide {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .slide, .contacts, .staff {
   border-radius: 2px;
   box-shadow: 0 0 0 0.1rem rgba(108, 117, 125, 0.5);
@@ -225,6 +236,17 @@ button.bg-secondary:focus {
     min-height: 200px;
 }
 
+@media only screen and (max-width: 760px) {
+  .col-md-5 .nested-container {
+      min-height: 100px;
+  }
+  .img-offer {
+    height: 100%;
+    width: auto;
+  }
+
+}
+
 .offer-title p {
   padding-bottom: 2rem;
 }
@@ -245,6 +267,12 @@ font-family: 'Comfortaa', cursive;
 
 .events {
   height: 40vw;
+}
+
+@media only screen and (max-width: 760px) {
+  .events {
+    height: 20rem;
+  }
 }
 
 .events-nested-container {
@@ -406,6 +434,14 @@ table tbody tr td:first-child {
   padding: 0 5rem;
 }
 
+@media only screen and (max-width: 650px) {
+  #description {
+    padding: .5rem;
+  }
+
+
+}
+
 
 
 /* = = = Staff = = = */
@@ -446,8 +482,17 @@ table tbody tr td:first-child {
 
 .map-container {
   min-height: 432px;
-  padding: 15px 0;
+  padding: 2rem;
+
 }
+
+@media only screen and (max-width: 650px) {
+  #location {
+    display: none;
+    padding: 0rem;
+  }
+
+
 
 .about-bar {
   color: white;
@@ -466,6 +511,8 @@ table tbody tr td:first-child {
   width: 100%;
   text-align: center;
 }
+
+
 
 .nested-container p {
   color: white;
