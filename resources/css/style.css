@@ -26,26 +26,6 @@ body {
 
 /* = = = FONTS = = = */
 
-@font-face {
-  font-family: 'Rum Raisin Cyrillic';
-  font-weight: 400;
-  src: url(../fonts/Rum Raisin Cyrillic.otf);
-}
-
-@font-face {
-  font-family: 'TypoGraphica Demo';
-  font-weight: 400;
-  src: url(../fonts/TypoGraphica/TypoGraphica_demo.otf);
-}
-
-.rum-raisin {
-  font-family: "Rum Raisin Cyrillic";
-}
-
-.typographica {
-  font-family: 'TypoGraphica Demo';
-}
-
 .neucha {
   font-family: 'Neucha', cursive;
 }
@@ -54,13 +34,6 @@ body {
   font-family: 'Comfortaa', cursive;
 }
 
-.playfair-display {
-  font-family: 'Playfair Display', serif;
-}
-
-.cormorant-garamond {
-  font-family: 'Cormorant Garamond', serif;
-}
 
 
 
@@ -178,10 +151,6 @@ button.bg-secondary:focus {
   font-style: italic;
 }
 
-#full-menu {
-
-}
-
 .collapse {
   margin-top: .15rem;
 }
@@ -209,7 +178,6 @@ button.bg-secondary:focus {
 .slide, .contacts, .staff {
   border-radius: 2px;
   box-shadow: 0 0 0 0.1rem rgba(108, 117, 125, 0.5);
-  /* color: black; */
 }
 
 .food-drink-menu {
@@ -299,11 +267,11 @@ div.event-description {
 }
 
 .event1 {
-  background-image: url("../images/event-drums.jpg");
+  /* paste new event here */
 }
 
 .event2 {
-  background-image: url("../images/event-light.jpg");
+  /* paste new event here */
 }
 
 .event3 {
@@ -422,7 +390,7 @@ table tbody tr td:first-child {
 
 
 /* = = = Gallery = = = */
-.gallery-photo {
+.gallery-photo-img {
   width: 100%;
   height: auto;
   }
@@ -514,10 +482,10 @@ table tbody tr td:first-child {
 
 
 
-.nested-container p {
+/* .nested-container p {
   color: white;
   width: 70%;
-}
+} */
 
 
 /* = = = Footer = = = */
